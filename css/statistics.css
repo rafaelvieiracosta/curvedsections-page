@@ -1,0 +1,37 @@
+.statistics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: 6.625rem;
+}
+
+.statistics h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+.statistics span {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .statistics {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+  .statistics img{
+    max-width: 28px;
+  }
+  .statistics h2 {
+    font-size: 3.375rem;
+  }
+  .statistics span {
+    font-size: 0.875rem;
+    letter-spacing: -0.02em;
+  }
+}

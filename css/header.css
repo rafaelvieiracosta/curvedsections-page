@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 1.25rem;
+  gap: 20px;
+}
+
+header .btn {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  font-family: Open Sans;
+  line-height: 1.375rem;
+  text-decoration: none;
+  color: #18a0fb;
+  padding: 0.625rem 1.875rem;
+  border: 0.063rem solid #18a0fb;
+  border-radius: 100px;
+  transition: .2s;
+}
+
+header .btn:hover{
+  color: #f5f7fa;
+  background-color: #18a0fb;
+}
+
+@media (max-width: 550px) {
+  header img{
+    max-width: 180px;
+  }
+  header {
+    justify-content: center;
+  }
+}
