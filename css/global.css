@@ -25,6 +25,43 @@ img {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5rem;
   margin-top: 1.375rem;
+}
+@media (max-width: 400px) {
+  .description {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.125rem;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #f5f7fa;
+  background-color: #18a0fb;
+  display: inline-block;
+  border-radius: 100px;
+  padding: 1.625rem 6.25rem;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transition: 0.1s;
+}
+.btn:hover {
+  background-color: #76c8ff;
+}
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.625rem;
+    letter-spacing: 0.025em;
+    padding: 0.625rem 2.25rem;
+    margin-top: 2.688rem;
+  }
 }

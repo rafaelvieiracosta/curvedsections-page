@@ -23,24 +23,6 @@ main p {
   margin-top: 1.438rem;
 }
 
-main a {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  font-size: 1.25rem;
-  text-decoration: none;
-  color: #f5f7fa;
-  background-color: #18a0fb;
-  display: inline-block;
-  border-radius: 100px;
-  padding: 1.625rem 6.25rem;
-  margin-top: 3rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  transition: .1s;
-}
-main a:hover{
-  background-color: #76C8FF;
-}
-
 main img {
   margin-top: 7.5rem;
 }
@@ -56,12 +38,6 @@ main img {
   main p {
     font-size: 0.813rem;
     letter-spacing: -0.025em;
-  }
-  main a {
-    font-size: 0.625rem;
-    letter-spacing: 0.025em;
-    padding: 0.625rem 2.25rem;
-    margin-top: 2.688rem;
   }
   main img{
     margin-top: 5.625rem;

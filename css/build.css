@@ -1,0 +1,22 @@
+.build {
+  margin-top: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.build h2 {
+  line-height: initial;
+  text-align: center;
+}
+
+.build a {
+  display: block;
+  margin-top: 2.375rem;
+}
+
+@media (max-width: 661px) {
+  .build {
+    margin-top: 155px;
+  }
+}

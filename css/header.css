@@ -8,7 +8,7 @@ header {
   gap: 20px;
 }
 
-header .btn {
+header .btn-header {
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -22,9 +22,10 @@ header .btn {
   transition: .2s;
 }
 
-header .btn:hover{
+header .btn-header:hover{
   color: #f5f7fa;
   background-color: #18a0fb;
+  transform: scale(1.1);
 }
 
 @media (max-width: 550px) {

@@ -1,7 +1,7 @@
 .together {
   background-color: #f5fbff;
   position: relative;
-  margin-top: 280px;
+  margin-top: 17.5rem;
 }
 
 .together::before {
@@ -11,6 +11,7 @@
   height: 165px;
   background-image: url("../img/bg-section-top-desktop-1.svg");
   background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: -165px;
 }
@@ -26,36 +27,54 @@
   bottom: -139px;
 }
 
-
 .together-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 70px 20px 45px;
+  padding: 4.375rem 1.25rem 2.813rem;
 }
 
-.together-div p{
+.together-div p {
   max-width: 55ch;
 }
 
-.together-div img{
+.together-div img {
   width: 100%;
   max-width: 513px;
 }
 
-@media(max-width:661px){
+@media (max-width: 661px) {
+  .together {
+    margin-top: 7.813rem;
+  }
   .together::before {
-    height: 165px;
-    background-image: url("../img/bg-section-top-desktop-1.svg");
-    top: -165px;
+    height: 200px;
+    background-image: url("../img/bg-section-top-mobile-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    top: -200px;
   }
   .together::after {
     height: 139px;
-    background-image: url("../img/bg-section-bottom-desktop-1.svg");
+    background-image: url("../img/bg-section-bottom-mobile-1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     bottom: -139px;
   }
   .together-div {
     grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .together-div img {
+    grid-row: 1;
+  }
+  .title {
+    text-align: center;
+    margin-top: 3.875rem;
+  }
+  .description {
+    text-align: center;
+    margin-top: 0.75rem;
   }
 }
-

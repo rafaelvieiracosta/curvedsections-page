@@ -1,3 +1,31 @@
-.conversations{
-  margin-top: 500px;
+.conversations {
+  margin-top: 31.25rem;
+}
+
+.conversations {
+  position: relative;
+  margin-top: 16.188rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.conversations p {
+  max-width: 55ch;
+}
+
+.conversations div {
+  justify-self: end;
+}
+
+@media(max-width:661px){
+  .conversations {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 11.25rem;
+  }
+  .conversations div {
+    justify-self: center;
+  }
 }
