@@ -44,7 +44,6 @@
   .users::before {
     height: 170px;
     background-image: url("../img/bg-section-top-mobile-2.svg");
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     top: -170px;
@@ -52,7 +51,6 @@
   .users::after {
     height: 150px;
     background-image: url("../img/bg-section-bottom-mobile-2.svg");
-    background-size: cover;
     background-repeat: no-repeat;
     bottom: -150px;
   }

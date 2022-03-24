@@ -65,3 +65,10 @@ img {
     margin-top: 2.688rem;
   }
 }
+
+@media (min-width: 1450px) {
+  *::after,
+  *::before {
+    display: none !important;
+  }
+}
