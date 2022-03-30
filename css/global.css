@@ -66,9 +66,15 @@ img {
   }
 }
 
-@media (min-width: 1450px) {
-  *::after,
-  *::before {
-    display: none !important;
-  }
+.curve {
+  display: flex;
+}
+.curve > img {
+  width: 100%;
+}
+.bg-blue {
+  background-color: #f5fbff;
+}
+.bg-black {
+  background: #0b0c12;
 }

@@ -1,30 +1,6 @@
 .together {
-  background-color: #f5fbff;
   position: relative;
-  margin-top: 17.5rem;
-}
-
-.together::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 165px;
-  background-image: url("../img/bg-section-top-desktop-1.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: -165px;
-}
-
-.together::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 139px;
-  background-image: url("../img/bg-section-bottom-desktop-1.svg");
-  background-size: cover;
-  position: absolute;
-  bottom: -139px;
+  margin-top: 140px;
 }
 
 .together-div {
@@ -46,21 +22,6 @@
 @media (max-width: 661px) {
   .together {
     margin-top: 7.813rem;
-  }
-  .together::before {
-    height: 200px;
-    background-image: url("../img/bg-section-top-mobile-1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    top: -200px;
-  }
-  .together::after {
-    height: 139px;
-    background-image: url("../img/bg-section-bottom-mobile-1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    bottom: -139px;
   }
   .together-div {
     grid-template-columns: 1fr;
